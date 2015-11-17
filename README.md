@@ -12,7 +12,6 @@ $.ajax({
           url: getRoute()+"/rest.php/servico/lista"
           success: function(data){
           var resultado=JSON.parse(data);
-          
           }, error: function(error){
             console.log(error);
           }
