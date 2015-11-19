@@ -1,4 +1,4 @@
-# PHP-Slm-Basic-Auth-Example
+# PHP-Slim-Basic-Auth-Example
 Authenticação basica em servicos json para php slim
 
 
@@ -6,7 +6,7 @@ basic authenticação para php slim,
 
 example de como chamar esse servico usando ajax
 
-getRoute()= (url servidor tomcat);
+getRoute()= http://USER:PASSWORD@(url servidor tomcat);
 
 $.ajax({
           url: getRoute()+"/rest.php/servico/lista"
