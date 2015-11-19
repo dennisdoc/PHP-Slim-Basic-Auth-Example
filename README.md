@@ -6,9 +6,13 @@ basic authenticação para php slim,
 
 example de como chamar esse servico usando ajax
 
-getRoute()= http://USER:PASSWORD@(url servidor tomcat);
+
 
 ```javascript
+function getRoute(){
+  return "http://USER:PASSWORD@(url servidor tomcat)";
+}
+
 $.ajax({
          url: getRoute()+"/rest.php/servico/lista"
          
