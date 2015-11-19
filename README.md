@@ -8,6 +8,7 @@ example de como chamar esse servico usando ajax
 
 getRoute()= http://USER:PASSWORD@(url servidor tomcat);
 
+<code>
 $.ajax({
           url: getRoute()+"/rest.php/servico/lista"
           success: function(data){
@@ -18,3 +19,4 @@ $.ajax({
             console.log(error);
           }
       });
+</code>
